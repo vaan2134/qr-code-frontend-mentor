@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.container {
+  width: 320px;
+  height: 500px;
+  background:  #fff;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 15px 15px;
+  color: hsl(218, 44%, 22%);
+}
+
+.content p {
+  margin-top: 20px;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
